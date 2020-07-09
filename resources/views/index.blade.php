@@ -374,7 +374,7 @@
 
 <!-- End Subscribe Form -->
 </div>
-@include('includes.form')
+{{--@include('includes.form')--}}
 
 
 
