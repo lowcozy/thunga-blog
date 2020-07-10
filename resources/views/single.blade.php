@@ -83,7 +83,7 @@
                 <div class="blog-details-author">
 
                     <div class="blog-details-author-thumb">
-                        <img src="{{ asset($post->user->profile->avatar) }}" alt="Author">
+                        <img style="max-width: 72%;" src="{{ asset($post->user->profile->avatar) }}" alt="Author">
                     </div>
 
                     <div class="blog-details-author-content">
@@ -108,7 +108,7 @@
                             </a> --}}
 
                             <a href="{{$post->user->profile->youtube}}" target="_blank" class="social__item">
-                                <img src="{{ asset('app/svg/youtube.svg') }}" alt="youtube">
+                                <img src="{{ asset('app/svg/instagram-sketched.svg') }}" alt="instagram">
                             </a>
 
                         </div>
