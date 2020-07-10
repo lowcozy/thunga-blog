@@ -83,7 +83,7 @@
                 <div class="blog-details-author">
 
                     <div class="blog-details-author-thumb">
-                        <img style="max-width: 72%;" src="{{ asset($post->user->profile->avatar) }}" alt="Author">
+                        <img style="max-width: 72%; border-radius: 50%;" src="{{ asset($post->user->profile->avatar) }}" alt="Author">
                     </div>
 
                     <div class="blog-details-author-content">
