@@ -131,7 +131,7 @@ var CRUMINA = {};
     CRUMINA.animateSvg = function () {
         if ($animatedIcons.length) {
             $animatedIcons.each(function () {
-                jQuery(this).waypoint(function () {
+                $(this).waypoint(function () {
                     var mySVG = $(this.element).find('> svg').drawsvg();
                     mySVG.drawsvg('animate');
                     this.destroy();

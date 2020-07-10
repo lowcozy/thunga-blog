@@ -60,7 +60,7 @@
                                 <a href="{{ $post->featured }}" class="link-image js-zoom-image">
                                     <i class="seoicon-zoom"></i>
                                 </a>
-                                <a href="#" class="link-post">
+                                <a  href="javascript:void(0)" class="link-post" data-clipboard-text="{{ route('post.single', ['slug' => $post->slug ]) }}">
                                     <i class="seoicon-link-bold"></i>
                                 </a>
                             </div>
@@ -171,6 +171,44 @@
 <script src="{{ asset('app/js/velocity.min.js') }}"></script>
 <script src="{{ asset('app/js/ScrollMagic.min.js') }}"></script>
 <script src="{{ asset('app/js/animation.velocity.min.js') }}"></script>
+
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.link-post').tooltip({
+            trigger: 'click',
+            placement: 'bottom'
+        });
+
+        function setTooltip(btn, message) {
+            $(btn).tooltip('hide')
+                .attr('data-original-title', message)
+                .tooltip('show');
+        }
+
+        function hideTooltip(btn) {
+            setTimeout(function() {
+                $(btn).tooltip('hide');
+            }, 1000);
+        }
+
+        // Clipboard
+        var clipboard = new ClipboardJS('.link-post');
+
+        clipboard.on('success', function(e) {
+            setTooltip(e.trigger, 'Copied!');
+            hideTooltip(e.trigger);
+            e.clearSelection();
+        });
+
+        clipboard.on('error', function(e) {
+            setTooltip(e.trigger, 'Failed!');
+            hideTooltip(e.trigger);
+        });
+    });
+</script>
 
 <!-- ...end JS Script -->
 {{-- <script>--}}
