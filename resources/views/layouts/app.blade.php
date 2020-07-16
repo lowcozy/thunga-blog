@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/toastr.min.css') }}">
 
      @yield('styles')
@@ -79,7 +80,7 @@
 
                 @if(auth::check())
 
-                 <div class="col-lg-4">
+                 <div class="col-lg-2">
                      <ul class="list-group">
 
                         <li class="list-group-item">
@@ -100,8 +101,8 @@
                          </li>
                          <li class="list-group-item">
                              <a href="{{ route('tags') }}">All tags</a>
-                         </li> 
-                    
+                         </li>
+
                          <li class="list-group-item">
                              <a href="{{ route('posts') }}">All posts</a>
                          </li>
@@ -136,15 +137,15 @@
 
                  @endif
 
-                 <div class="col-lg-8">
+                 <div class="col-lg-10">
 
-                       
+
                      @yield('content')
                  </div>
              </div>
          </div>
 
-        
+
     </div>
 
     <!-- Scripts -->

@@ -40,14 +40,10 @@ class PostsController extends Controller
                                          ->with('tags',Tag::all());
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+
     public function store(Request $request)
     {
+        dd($request->body);
         $this->validate($request,[
 
             'title' => 'required',
@@ -55,7 +51,6 @@ class PostsController extends Controller
             'body' => 'required',
             'category_id'=> 'required',
              'tags'=>'required'
-            
 
         ]);
 
@@ -120,14 +115,14 @@ class PostsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        
+
 
          $this->validate($request,[
 
             'title' => 'required',
             'body' => 'required',
             'category_id'=> 'required'
-            
+
 
         ]);
 
@@ -150,10 +145,10 @@ class PostsController extends Controller
          $posts->save();
          $posts->tags()->sync($request->tags);
 
-      
+
        Session::flash('success', 'You succesfully updated a Post.');
         return redirect()->route('posts');
-       
+
 
 
 
@@ -175,9 +170,9 @@ class PostsController extends Controller
 
     public function trashed()
     {
- 
+
        $posts = Post::onlyTrashed()->get();
-      
+
 
        return view('admin.posts.trashed')->with('posts', $posts);
 
@@ -189,7 +184,7 @@ class PostsController extends Controller
        $posts->forceDelete();
        Session::flash('success', 'You succesfully deleted a Post Permanently.');
        return redirect()->back();
-      
+
     }
 
     public function restore($id)
@@ -201,5 +196,13 @@ class PostsController extends Controller
         return redirect()->route('posts');
 
 
+    }
+
+    public function upload(Request $request) {
+        return response()->json([
+            'status' => 200,
+            'url' => 'https://picsum.photos/200/300',
+        ]);
+        dd($request->all());
     }
 }
