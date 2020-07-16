@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/swiper.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/primary-menu.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/magnific-popup.css') }}">
-
+     
 
     <!--Styles for RTL-->
 
@@ -42,15 +42,15 @@
 <body class=" ">
 
 <div class="content-wrapper">
-
+    
 @include('includes.header')
 
-
+   
 
     <div class="container">
+        
 
-
-
+       
 
 
         <!-- for another post item -->
@@ -60,7 +60,7 @@
     </div>
 
 
-
+  
 
 <!-- Stunning Header -->
 
@@ -81,7 +81,7 @@
 
 
 
-
+  
 
 <!-- Subscribe Form -->
 
@@ -151,8 +151,8 @@
 <script src="{{ asset('app/js/ScrollMagic.min.js') }}"></script>
 <script src="{{ asset('app/js/animation.velocity.min.js') }}"></script>
 
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-{{--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a032563054ef400"></script> --}}
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a032563054ef400"></script> 
 <!-- ...end JS Script -->
 
 </body>

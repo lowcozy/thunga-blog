@@ -1,52 +1,26 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use App\Profile;
-use Auth;
-use Illuminate\Http\Request;
-use Illuminate\Http\Response;
 use Session;
+use Illuminate\Http\Request;
+use Auth;
 
 class ProfilesController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return Response
+     * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        $user = Auth::user();
-        $profile = Profile::where('user_id', $user->id)->first();
-        return view('admin.users.profile')->with('user', $user)->with('profile', $profile);
-    }
-
-    public function uploadAvatar(Request $request)
-    {
-        $user = Auth::user();
-
-
-        if ($request->hasfile('avatar')) {
-
-
-            $avatar = $request->avatar;
-            $avatar_new = time() . $avatar->getClientOriginalName();
-            $avatar->move('uploads/avatars', $avatar_new);
-            $user->profile->avatar = 'uploads/avatars/' . $avatar_new;
-            $user->profile->save();
-        }
-
-        return response()->json([
-            'status' => 200,
-            'message' => 'OK',
-        ]);
+        return view('admin.users.profile')->with('user', Auth::user());
     }
 
     /**
      * Show the form for creating a new resource.
      *
-     * @return Response
+     * @return \Illuminate\Http\Response
      */
     public function create()
     {
@@ -56,8 +30,8 @@ class ProfilesController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param Request $request
-     * @return Response
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
@@ -67,8 +41,8 @@ class ProfilesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param int $id
-     * @return Response
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
      */
     public function show($id)
     {
@@ -78,8 +52,8 @@ class ProfilesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param int $id
-     * @return Response
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
@@ -89,52 +63,65 @@ class ProfilesController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param Request $request
-     * @param int $id
-     * @return Response
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
      */
     public function update(Request $request)
     {
+        
 
+        $this->validate($request,[
 
-        $this->validate($request, [
+           'name' => 'required',
+           'email'=> 'required|email',
+           'facebook' => 'required|url',
+           'youtube' => 'required|url'
 
-            'name' => 'required',
-            'email' => 'required|email',
-            'facebook' => 'required|url',
-            'youtube' => 'required|url'
 
 
         ]);
 
         $user = Auth::user();
 
-        $user->name = $request->name;
-        $user->email = $request->email;
-        $user->profile->facebook = $request->facebook;
-        $user->profile->youtube = $request->youtube;
-        $user->profile->about = $request->about;
+
+          if($request->hasfile('avatar')){
 
 
-        $user->profile->save();
+            $avatar = $request->avatar;
+            $avatar_new = time().$avatar->getClientOriginalName();
+            $avatar->move('uploads/avatars',$avatar_new);
+            $user->profile->avatar ='uploads/avatars/' . $avatar_new;
+            $user->profile->save();
+          }
 
-        if ($request->has('password')) {
+          $user->name = $request->name;
+          $user->email = $request->email;
+          $user->profile->facebook = $request->facebook;
+          $user->profile->youtube = $request->youtube;
+          $user->profile->about = $request->about;
+         
+
+         
+          $user->profile->save();
+
+          if($request->has('password')){
             $user->password = bcrypt($request->password);
-        }
+          }
 
-        $user->save();
+           $user->save();
 
-        Session::flash('success', 'Profile Updated!');
-        return redirect()->back();
-
+           Session::flash('success','Profile Updated!');
+           return redirect()->back();
+        
 
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param int $id
-     * @return Response
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
      */
     public function destroy($id)
     {

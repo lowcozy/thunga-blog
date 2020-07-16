@@ -261,13 +261,6 @@ Route::group(['prefix' => 'admin','middleware' => 'auth'], function() {
 		                  'uses' => 'ProfilesController@index',
 		                  'as'   => 'user.profile'
 		]);
-        Route::post('/user/upload-avatar', [
-
-
-
-            'uses' => 'ProfilesController@uploadAvatar',
-            'as'   => 'user.upload-avatar'
-        ]);
 		 Route::post('/user/profile/update', [
 
 

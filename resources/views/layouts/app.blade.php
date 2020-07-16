@@ -152,11 +152,6 @@
     <script src="{{ asset('js/toastr.min.js') }}"></script>
 
      <script>
-         $.ajaxSetup({
-             headers: {
-                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-             }
-         });
           @if(Session::has('success'))
                 toastr.success("{{ Session::get('success') }}")
           @endif
