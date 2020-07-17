@@ -1,1 +1,7 @@
+.ck-editor__editable {
+    min-height: 500px;
+}
 
+figcaption {
+    min-height: 10px !important;
+}

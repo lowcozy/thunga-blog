@@ -43,7 +43,6 @@ class PostsController extends Controller
 
     public function store(Request $request)
     {
-        dd($request->body);
         $this->validate($request,[
 
             'title' => 'required',
@@ -54,16 +53,11 @@ class PostsController extends Controller
 
         ]);
 
-        $featured = $request->featured;
-        $featuerd_new = time().$featured->getClientoriginalName();
-        $featured->move('uploads/posts', $featuerd_new);
-
         $post = Post::create([
 
 
                 'title' => $request->title,
                 'body' => $request->body,
-                'featured' => 'uploads/posts/'. $featuerd_new,
                 'category_id' => $request->category_id,
                 'slug'=> str_slug($request->title),
                 'user_id'=>Auth::id()
@@ -71,7 +65,13 @@ class PostsController extends Controller
 
         ]);
 
-          $post->tags()->attach($request->tags);
+        $featured = $request->featured;
+        $name = $post->id . '.jpg';
+        $featured->move('uploads/posts', $name);
+        $post->featured = 'uploads/posts/'. $name;
+        $post->save();
+
+        $post->tags()->attach($request->tags);
 
 
        Session::flash('success','Your post Created Succesfully');
@@ -132,7 +132,8 @@ class PostsController extends Controller
 
 
         $featured = $request->featured;
-        $featuerd_new = time().$featured->getClientoriginalName();
+        // $featuerd_new = time().$featured->getClientoriginalName();
+        $featuerd_new = $posts->id . '.jpg';;
         $featured->move('uploads/posts', $featuerd_new);
         $posts->featured ='uploads/posts/'.$featuerd_new;
 
