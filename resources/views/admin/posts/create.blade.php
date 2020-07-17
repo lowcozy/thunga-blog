@@ -213,6 +213,7 @@
                             'horizontalLine',
                             'removeFormat',
                             'highlight',
+                            'emoji',
                             '|',
                             'imageUpload',
                             'blockQuote',
@@ -224,6 +225,14 @@
                             'todoList'
                         ]
                     },
+                    emoji: [
+                        { name: 'smile', text: '😀' },
+                        { name: 'wink', text: '😉' },
+                        { name: 'cool', text: '😎' },
+                        { name: 'surprise', text: '😮' },
+                        { name: 'confusion', text: '😕' },
+                        { name: 'crying', text: '😢' }
+                    ],
                     language: 'en',
                     image: {
                         toolbar: [ 'imageTextAlternative', '|', 'imageStyle:alignLeft', 'imageStyle:full', 'imageStyle:alignRight' ],

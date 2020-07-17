@@ -20,77 +20,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2a4d17f-4f26-45b2-8761-7ae5f2eabd25" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/app/css/custom-body.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Blog-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Blog-laravel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15095200991505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15095201561505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/150952022025235a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15095202431505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15095204641505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15095205001505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15095205221505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15095206711505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15095208411505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15095208831505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1509529364unnamed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1509529529Capture.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/150952957540_MInutes_at_Tk_14_Inner_revised_optimized.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/150953259325235a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15095326211505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/150953268240_MInutes_at_Tk_14_Inner_revised_optimized.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15095341201505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1509534989GP-19-Minutes-7-TK-Offer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1509535782hair.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1509556739hair.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/150955964640_MInutes_at_Tk_14_Inner_revised_optimized.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/150961805040_MInutes_at_Tk_14_Inner_revised_optimized.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15096229031505289718101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15098737436.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15098737905.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15098738822.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15098773911.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15098784594.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1509880967analysis.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1509881042background-element.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1509881114seo-analysis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1509881967404-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1509882144case2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15098834962.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15098839326.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1509884043photo-elements2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15099001932.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15100642581.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15100643334.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15100643832.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15100644265.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15100644926.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15100685404.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15101514246.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102171586.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102180196.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102180515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102180694.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102180913.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102181231.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102181382.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102181523.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102188381.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102188522.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102188773.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102188944.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102189114.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102189265.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/15102189426.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1523792883002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1594275993thunga.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1594276181intro-1583346246.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1594276207intro-1583346246.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/posts/1594279272intro-1583346246.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/ckeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/ckeditor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/ckeditor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/af.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/de-ch.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/de-ch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/en-au.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/en-gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/en-gb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/eo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/gu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/gu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/kn.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/kn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ku.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ku.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/no.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/oc.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/oc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/si.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/si.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sr-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sr-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/tt.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/tt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/src/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/src/ckeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +200,10 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectId" id="1eRE1JhvjA2bVlZAQ4HSNEcYtuq" />
@@ -241,7 +250,8 @@
       <workItem from="1594350861669" duration="6269000" />
       <workItem from="1594360789978" duration="13254000" />
       <workItem from="1594880934500" duration="14653000" />
-      <workItem from="1594953135376" duration="3160000" />
+      <workItem from="1594953135376" duration="4667000" />
+      <workItem from="1594967497748" duration="12756000" />
     </task>
     <servers />
   </component>
@@ -281,9 +291,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="147" width="962" height="640" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594377550262" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594354966737">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594978695057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594354966737" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594978695057" />
   </component>
 </project>

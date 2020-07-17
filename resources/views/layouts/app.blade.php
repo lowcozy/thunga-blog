@@ -14,6 +14,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/toastr.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('app/css/custom-body.css') }}">
 
      @yield('styles')
 </head>
