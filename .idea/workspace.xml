@@ -20,82 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2a4d17f-4f26-45b2-8761-7ae5f2eabd25" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/app/css/custom-body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Blog-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Blog-laravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/ckeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/ckeditor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/ckeditor.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/af.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ast.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/az.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/de-ch.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/de-ch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/en-au.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/en-gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/en-gb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/eo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/et.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/eu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/gl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/gu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/gu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/km.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/kn.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/kn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ku.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ku.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/lv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/no.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/oc.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/oc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pt-br.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/si.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/si.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sr-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sr-latn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/tt.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/tt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/ug.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/uk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/build/translations/zh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ckeditor5-build-classic/src/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ckeditor5-build-classic/src/ckeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +177,7 @@
       <workItem from="1594360789978" duration="13254000" />
       <workItem from="1594880934500" duration="14653000" />
       <workItem from="1594953135376" duration="4667000" />
-      <workItem from="1594967497748" duration="12756000" />
+      <workItem from="1594967497748" duration="13380000" />
     </task>
     <servers />
   </component>

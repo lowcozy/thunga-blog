@@ -33,6 +33,7 @@ class PostsController extends Controller
      */
     public function create()
     {
+        $this->deleteTemp();
         $categories = Category::all();
         if ($categories->count() == 0) {
             Session::flash('info', 'You Must have Choose At least One Category');
@@ -98,7 +99,7 @@ class PostsController extends Controller
 
 
         Session::flash('success', 'Your post Created Succesfully');
-
+        $this->deleteTemp();
         return redirect()->back();
     }
 
@@ -121,6 +122,7 @@ class PostsController extends Controller
      */
     public function edit($id)
     {
+        $this->deleteTemp();
         $posts = Post::find($id);
 
         return view('admin.posts.edit')->with('posts', $posts)
@@ -168,7 +170,7 @@ class PostsController extends Controller
         $posts->save();
         $posts->tags()->sync($request->tags);
 
-
+        $this->deleteTemp();
         Session::flash('success', 'You succesfully updated a Post.');
         return redirect()->route('posts');
 
@@ -264,5 +266,11 @@ class PostsController extends Controller
             $image_resize->save(public_path($path . $filename));
             return $filename;
         }
+    }
+
+    public function deleteTemp()
+    {
+        $files = Storage::disk('real')->allFiles('/uploads/temp');
+        Storage::disk('real')->delete($files);
     }
 }
