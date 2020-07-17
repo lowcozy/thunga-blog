@@ -42,6 +42,7 @@ import Title from '@ckeditor/ckeditor5-heading/src/title.js';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
+import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
 
 class Editor extends ClassicEditor {}
 
@@ -85,7 +86,8 @@ Editor.builtinPlugins = [
 	Title,
 	TodoList,
 	Underline,
-	WordCount
+	WordCount,
+	Emoji
 ];
 
 export default Editor;
