@@ -3,7 +3,7 @@
 
 @section('content')
 
-     
+
      @include('admin.includes.errors')
 
 <div class="panel panel-default">
@@ -13,7 +13,7 @@
 
       <div class="panel-body">
       	<form action="{{ route('posts.update',['id'=>$posts->id]) }}" method="POST" enctype="multipart/form-data">
-      		
+
       		{{ csrf_field() }}
 
             <div class="form-group">
@@ -28,12 +28,12 @@
 
                       <option value="{{$category->id}}"
                           @if ($posts->category->id == $category->id)
-                             selected 
+                             selected
                           @endif
 
                         >{{$category->name}}</option>
 
-                     @endforeach     
+                     @endforeach
                   </select>
             </div>
             <div class="form-group">
@@ -41,17 +41,17 @@
                @foreach($tags as $tag)
                    <div class="checkbox">
                      <label for=""><input name="tags[]" value="{{$tag->id}}" type="checkbox"
-                         
+
                          @foreach ($posts->tags as $t)
                             @if ($tag->id == $t->id)
-                               checked 
+                               checked
                             @endif
                          @endforeach
 
 
                         >{{ $tag->tag }}</label>
                    </div>
-               @endforeach    
+               @endforeach
 
             </div>
             <div class="form-group">
@@ -63,7 +63,7 @@
 			 <div class="form-group">
             	<label for="body">Content</label>
             	<textarea name="body" id="body" cols="30" rows="10" placeholder="Enter your blog content" class="form-control">{{ $posts->body }}</textarea>
-              
+
         </div>
             <div class="from-group">
             	 <div class="text-right">
@@ -74,6 +74,7 @@
 
 
       	</form>
+      <input type="hidden" value="{{ route('posts.upload') }}" id="url">
       </div>
 
   </div>
@@ -93,13 +94,7 @@
 
 @section('scripts')
 <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.8/summernote.js"></script>
-
-<script>
-  
-  $(document).ready(function() {
-  $('#body').summernote();
-});
-
-</script>
+<script src="{{ asset('ckeditor5-build-classic/build/ckeditor.js') }}"></script>
+<script src="{{ asset('js/editor.js') }}"></script>
 
 @stop

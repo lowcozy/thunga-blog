@@ -165,7 +165,7 @@ class PostsController extends Controller
 
 
         $posts->title = $request->title;
-        $posts->body = $request->body;
+        $posts->body = $this->checkImageInContent($request->body, $id);
         $posts->category_id = $request->category_id;
         $posts->save();
         $posts->tags()->sync($request->tags);
