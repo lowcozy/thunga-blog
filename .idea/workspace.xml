@@ -20,18 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2a4d17f-4f26-45b2-8761-7ae5f2eabd25" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/app/css/custom-content.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/SettingTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SettingTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/css/custom-body.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app/css/custom-body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/trashed.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/trashed.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/single.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,20 +142,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/ckeditor5-build-classic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads/posts" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\laragon\www\thunga\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\thungavlog\public\uploads\posts" />
+      <recent name="C:\laragon\www\thungavlog\public\uploads\body" />
+      <recent name="C:\laragon\www\thungavlog\public\uploads\temp" />
       <recent name="E:\laragon\www\thunga\public\ckeditor5-build-classic" />
       <recent name="E:\laragon\www\thunga\public" />
-      <recent name="C:\Users\thangbt\Desktop\Blog-laravel\public\js" />
-      <recent name="C:\Users\thangbt\Desktop\Blog-laravel\public\css" />
-      <recent name="C:\Users\thangbt\Desktop\Blog-laravel\public\app\svg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\laragon\www\thunga\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -195,7 +185,7 @@
       <workItem from="1595004422674" duration="8000" />
       <workItem from="1595004443943" duration="2044000" />
       <workItem from="1595032083410" duration="789000" />
-      <workItem from="1595032888290" duration="4518000" />
+      <workItem from="1595032888290" duration="5259000" />
     </task>
     <servers />
   </component>
@@ -219,6 +209,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="845" y="383" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594880975194" />
+    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595038097165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595038097165" />
     <state x="736" y="432" key="ComposerInitDialogKey" timestamp="1594277904945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -244,9 +238,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595033978105" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594978695057">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595038089145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594978695057" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595038089145" />
   </component>
 </project>

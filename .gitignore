@@ -15,10 +15,11 @@ storage/*.key
 .env
 Homestead.yaml
 Homestead.json
-public/uploads/avatars/
-public/uploads/body/
-public/uploads/posts/
-public/uploads/temp/
+
+public/uploads/avatars/*
+public/uploads/body/*
+public/uploads/posts/*
+public/uploads/temp/*
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
