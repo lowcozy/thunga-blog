@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2a4d17f-4f26-45b2-8761-7ae5f2eabd25" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,15 +142,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads/posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads/temp" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\thungavlog\public\uploads\temp" />
       <recent name="C:\laragon\www\thungavlog\public\uploads\posts" />
       <recent name="C:\laragon\www\thungavlog\public\uploads\body" />
-      <recent name="C:\laragon\www\thungavlog\public\uploads\temp" />
       <recent name="E:\laragon\www\thunga\public\ckeditor5-build-classic" />
       <recent name="E:\laragon\www\thunga\public" />
     </key>
@@ -185,7 +185,7 @@
       <workItem from="1595004422674" duration="8000" />
       <workItem from="1595004443943" duration="2044000" />
       <workItem from="1595032083410" duration="789000" />
-      <workItem from="1595032888290" duration="5259000" />
+      <workItem from="1595032888290" duration="6721000" />
     </task>
     <servers />
   </component>
