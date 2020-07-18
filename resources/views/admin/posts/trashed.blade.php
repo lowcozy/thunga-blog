@@ -26,7 +26,7 @@
 
 			              <tr>
 			              	<td>
-			              		<img style="width: 90px;height: 50px;" src="{{ $post->featured}}" alt="{{$post->title}}">
+			              		<img style="max-height: 500px;" src="{{ $post->featured}}" alt="{{$post->title}}">
 			              	</td>
 
 			              	<td>

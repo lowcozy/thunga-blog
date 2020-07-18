@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/normalize.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/grid.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/styles.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('app/css/custom-body.css') }}">
 
     <!--Plugins styles-->
 
@@ -28,6 +27,7 @@
     <!--External fonts-->
 
     <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    @yield('css')
     <style>
         .padded-50{
             padding: 40px;

@@ -29,3 +29,20 @@
     float: right;
     margin-left: var(--ck-image-style-spacing);
 }
+
+figure.image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    margin: 10px;
+}
+
+.post__content {
+    overflow: hidden;
+}
+
+.w-tags {
+    margin-top: 10px;
+}
