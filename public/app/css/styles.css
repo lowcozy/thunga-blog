@@ -7647,3 +7647,6 @@ form.w-search {
   height: 1px;
   width: 1px;
   overflow: hidden; }
+
+.tooltip-arrow,
+.link-post + .tooltip > .tooltip-inner {color: #FFFFFF;}
