@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2a4d17f-4f26-45b2-8761-7ae5f2eabd25" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/public/app/css/custom-content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/SettingTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SettingTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
@@ -194,7 +195,7 @@
       <workItem from="1595004422674" duration="8000" />
       <workItem from="1595004443943" duration="2044000" />
       <workItem from="1595032083410" duration="789000" />
-      <workItem from="1595032888290" duration="4417000" />
+      <workItem from="1595032888290" duration="4518000" />
     </task>
     <servers />
   </component>
