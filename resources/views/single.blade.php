@@ -43,7 +43,7 @@
                                 <i class="seoicon-clock"></i>
 
                                 <time class="published" datetime="2016-03-20 12:00:00">
-                                    {{$post->created_at->toFormattedDateString() }}
+                                     {{ $post->created_at->formatLocalized('%d %B %Y') }}
                                 </time>
 
                             </span>
@@ -51,7 +51,7 @@
                                 <span class="category">
                                 <i class="seoicon-tags"></i>
                                 <a href="{{ route('category.single',['id'=>$post->category->id]) }}">{{ $post->category->name}}</a>
-                              
+
                             </span>
 
                             </div>

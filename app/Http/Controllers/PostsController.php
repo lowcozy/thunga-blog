@@ -153,8 +153,6 @@ class PostsController extends Controller
         $posts = Post::find($id);
 
         if ($request->hasfile('featured')) {
-
-
             $featured = $request->featured;
             // $featuerd_new = time().$featured->getClientoriginalName();
             $featuerd_new = $posts->id . '.jpg';

@@ -23,7 +23,7 @@ class FrontEndController extends Controller
             ->with('categories', Category::all())
             ->with('posts', $posts)
             ->with('settings', $setting);
-                
+
     }
 
     /**
@@ -34,45 +34,50 @@ class FrontEndController extends Controller
 
       public function singlePost($slug)
       {
-
+          $setting = Setting::first();
           $post = Post::where('slug', $slug)->first();
-          
+
           $next_id = Post::where('id', '>', $post->id)->min('id');
           $prev_id = Post::where('id', '<', $post->id)->max('id');
 
-
+          $post->count++;
+          $post->save();
           return view('single')->with('post', $post)
-                               ->with('title',$post->title) 
-                               ->with('settings',Setting::first()) 
+                               ->with('title',$post->title)
+                               ->with('settings',$setting)
                                ->with('categories',Category::take(7)->get())
                                ->with('next',Post::find($next_id))
-                               ->with('prev',Post::find($prev_id));
-                               
-                              
-      
+                               ->with('prev',Post::find($prev_id))
+                               ->with('site', $setting->site_name);
+
+
+
 
       }
- 
+
 
 
   public function category($id)
   {
 
-
+      $setting = Setting::first();
        $category = Category::find($id);
        return view('category')->with('category', $category)
                               ->with('title',$category->name)
-                              ->with('settings',Setting::first())
+                              ->with('settings',$setting)
+                              ->with('site', $setting->site_name)
                               ->with('categories', Category::take(5)->get());
   }
 
 
     public function tag($id)
     {
+      $setting = Setting::first();
       $tag = Tag::find($id);
       return view('tag')->with('tag',$tag)
                         ->with('title', $tag->tag)
-                        ->with('settings',Setting::first())
+                        ->with('settings', $setting)
+                        ->with('site', $setting->site_name)
                         ->with('categories', Category::take(5)->get());
     }
 

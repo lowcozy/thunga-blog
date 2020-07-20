@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>{{ $title }}</title>
+    <title>Du Lịch, Ăn Uống Reviews - {{ $title }}</title>
 
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/fonts.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/crumina-fonts.css') }}">
@@ -42,7 +42,7 @@
 <body class=" ">
 
 <div class="content-wrapper">
-    
+
     @include('includes.header')
 
     <div class="header-spacer"></div>
@@ -92,7 +92,7 @@
 
                                         <span class="post__comments">
                                             <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i></a>
-                                            6
+                                                {{ $post->count }}
                                         </span>
                                     </div>
                                 </div>
@@ -191,6 +191,7 @@
         function hideTooltip(btn) {
             setTimeout(function() {
                 $(btn).tooltip('hide');
+                $('.bottom').remove();
             }, 1000);
         }
 

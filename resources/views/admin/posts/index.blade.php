@@ -9,7 +9,7 @@
 
 	 <div class="panel panel-default">
 	 	<div class="panel-body">
-	 		
+
 			<table class="table table-hover">
 		 		<thead>
 					<th>Post Image</th>
@@ -25,7 +25,7 @@
 
 			              <tr>
 			              	<td>
-			              		<img style="max-height: 500px;" src="{{ $post->featured}}" alt="{{$post->title}}">
+			              		<img style="max-height: 500px; max-width: 500px;" src="{{ $post->featured . '?v=' . time()}}" alt="{{$post->title}}">
 			              	</td>
 
 			              	<td>
@@ -38,7 +38,7 @@
 			              	 <td><a class="btn btn-danger" href="{{ route('posts.delete', ['id'=>$post->id]) }}">Trash</a></td>
 
 			              </tr>
-			             
+
 
 						 @endforeach
 
@@ -55,6 +55,6 @@
 			</table>
 	 	</div>
 	 </div>
-	
+
 
 @stop

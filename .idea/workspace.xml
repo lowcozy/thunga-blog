@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2a4d17f-4f26-45b2-8761-7ae5f2eabd25" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/temp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/single.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,10 +241,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="1958" y="0" width="1369" height="999" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594960697634" />
-    <state x="667" y="147" width="962" height="640" key="find.popup" timestamp="1595035224010">
+    <state x="667" y="147" width="962" height="640" key="find.popup" timestamp="1595228822898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="147" width="962" height="640" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594377550262" />
+    <state x="667" y="147" width="962" height="640" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595228822898" />
     <state x="667" y="147" width="962" height="640" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595035224010" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1595033978105">
       <screen x="0" y="0" width="1920" height="1040" />
