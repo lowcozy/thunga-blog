@@ -20,10 +20,10 @@
                         <ul class="primary-menu-menu" style="overflow: hidden;">
                                @foreach($categories as $category)
                            <li class="">
-                                <a href="{{ route('category.single', ['id' => $category->id ]) }}">{{ $category->name }}</a>
+                                <a href="{{ route('category.single', ['id' => $category->slug ]) }}">{{ $category->name }}</a>
                             </li>
                                @endforeach
-                            
+
                           {{--   <li class="">
                                 <a href="">VIDEOS</a>
                             </li>

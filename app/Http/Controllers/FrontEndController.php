@@ -57,11 +57,12 @@ class FrontEndController extends Controller
 
 
 
-  public function category($id)
+  public function category($slug)
   {
 
       $setting = Setting::first();
-       $category = Category::find($id);
+      $category = Category::where('slug', $slug)->first();
+      if (!$category) abort(404);
        return view('category')->with('category', $category)
                               ->with('title',$category->name)
                               ->with('settings',$setting)
@@ -70,10 +71,11 @@ class FrontEndController extends Controller
   }
 
 
-    public function tag($id)
+    public function tag($slug)
     {
       $setting = Setting::first();
-      $tag = Tag::find($id);
+      $tag = Tag::where('slug', $slug)->first();
+      if (!$tag) abort(404);
       return view('tag')->with('tag',$tag)
                         ->with('title', $tag->tag)
                         ->with('settings', $setting)

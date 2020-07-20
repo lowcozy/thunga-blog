@@ -50,7 +50,7 @@
 
                                 <span class="category">
                                 <i class="seoicon-tags"></i>
-                                <a href="{{ route('category.single',['id'=>$post->category->id]) }}">{{ $post->category->name}}</a>
+                                <a href="{{ route('category.single',['id'=>$post->category->slug]) }}">{{ $post->category->name}}</a>
 
                             </span>
 
@@ -66,7 +66,7 @@
                                 <div class="widget w-tags">
                                     <div class="tags-wrap">
                                         @foreach($post->tags as $tag)
-                                            <a href="{{ route('tag.single',['id'=>$tag->id]) }}"
+                                            <a href="{{ route('tag.single',['id'=>$tag->slug]) }}"
                                                class="w-tags-item">{{$tag->tag}}</a>
                                         @endforeach
                                     </div>
@@ -75,7 +75,7 @@
                             </div>
                         </div>
 
-                        <div class="socials text-center">Share:
+                        <div class="socials text-center">Chia sẻ:
                             <!-- Go to www.addthis.com/dashboard to customize your tools -->
                             <div class="addthis_inline_share_toolbox_jd8q"></div>
                         </div>
@@ -150,7 +150,7 @@
                     <div class="comments">
 
                         <div class="heading text-center">
-                            <h4 class="h1 heading-title">Comments</h4>
+                            <h4 class="h1 heading-title">Bình luận</h4>
                             <div class="heading-line">
                                 <span class="short-line"></span>
                                 <span class="long-line"></span>
@@ -175,7 +175,7 @@
                     <aside aria-label="sidebar" class="sidebar sidebar-right">
                         <div class="widget w-tags">
                             <div class="heading text-center">
-                                <h4 class="heading-title">ALL BLOG TAGS</h4>
+                                <h4 class="heading-title">Tất cả các thẻ</h4>
                                 <div class="heading-line">
                                     <span class="short-line"></span>
                                     <span class="long-line"></span>
@@ -185,7 +185,7 @@
                             <div class="tags-wrap">
 
                                 @foreach($post->tags as $tag)
-                                    <a href="{{ route('tag.single',['id'=>$tag->id]) }}"
+                                    <a href="{{ route('tag.single',['id'=>$tag->slug]) }}"
                                        class="w-tags-item">{{$tag->tag}}</a>
                                 @endforeach
 

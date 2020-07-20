@@ -36,7 +36,7 @@ class TagsController extends Controller
     public function store(Request $request)
     {
         // $this->validate($request ,[
-                    
+
         //             'tag' => 'required'
 
         // ]);
@@ -48,13 +48,14 @@ class TagsController extends Controller
 
         $this->validate($request,[
 
-                'tag' => 'required'
+                'tag' => 'required|unique:tags'
 
 
         ]);
 
         $tag = new Tag;
         $tag->tag = $request->tag;
+        $tag->slug = str_slug($request->tag);
         $tag->save();
         Session::flash('success', 'You succesfully created a tag.');
         return redirect()->route('tags');
@@ -96,11 +97,12 @@ class TagsController extends Controller
     {
         $this->validate($request, [
 
-            'tag' => 'required'
+            'tag' => 'required|unique:tags,tag,' . $id
 
         ]);
         $tag = Tag::find($id);
         $tag->tag = $request->tag;
+        $tag->slug = str_slug($request->tag);
         $tag->save();
         Session::flash('success','Tag Updated successfully');
         return redirect()->route('tags');

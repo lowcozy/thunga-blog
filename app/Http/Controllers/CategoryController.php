@@ -39,12 +39,13 @@ class CategoryController extends Controller
     {
         $this->validate($request,[
 
-                'name' => 'required'
+                'name' => 'required|unique:categories'
 
         ]);
 
         $category = new Category();
         $category->name = $request->name;
+        $category->slug = str_slug($request->name);
         $category->save();
         Session::flash('success', 'You succesfully created a category.');
         return redirect()->back();
@@ -72,8 +73,8 @@ class CategoryController extends Controller
     public function edit($id)
     {
         $category = Category::find($id);
-       
-    
+
+
         return view('admin.categories.edit')->with('category', $category);
     }
 
@@ -86,8 +87,15 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $this->validate($request,[
+
+            'name' => 'required|unique:categories,name,' . $id
+
+        ]);
+
         $category = Category::find($id);
         $category->name = $request->name;
+        $category->slug = str_slug($request->name);
         $category->save();
         Session::flash('success', 'You succesfully updated a category.');
         return redirect()->route('categories');
@@ -104,7 +112,7 @@ class CategoryController extends Controller
         $category = Category::find($id);
 
       foreach ($category->posts as $post) {
-          
+
 
           $post->forceDelete();
       }

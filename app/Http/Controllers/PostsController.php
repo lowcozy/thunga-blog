@@ -83,7 +83,7 @@ class PostsController extends Controller
 
             'title' => $request->title,
             'category_id' => $request->category_id,
-            'slug' => str_slug($request->title),
+            'slug' => str_slug($request->title) . '-' . $this->generateRandom(4),
             'user_id' => Auth::id()
 
 
@@ -217,6 +217,17 @@ class PostsController extends Controller
         return redirect()->route('posts');
 
 
+    }
+
+    public function generateRandom($length = 10)
+    {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyz';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
     }
 
     public function generateRandomString($length = 10)
