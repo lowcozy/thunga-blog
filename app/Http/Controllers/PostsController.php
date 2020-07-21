@@ -16,21 +16,12 @@ use Session;
 
 class PostsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return Response
-     */
     public function index()
     {
         return view('admin.posts.index')->with('posts', Post::all());
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return Response
-     */
+
     public function create()
     {
         $this->deleteTemp();
@@ -58,10 +49,21 @@ class PostsController extends Controller
                 $split = explode('/', $src);
                 $name = $split[count($split) - 1];
                 Storage::disk('real')->move('uploads/temp/' . $name, "uploads/body/{$postId}/{$name}");
-                $newSrc = str_replace("uploads/temp/","uploads/body/{$postId}/", $src);
+                $newSrc = str_replace("uploads/temp/", "uploads/body/{$postId}/", $src);
                 $body = str_replace($src, $newSrc, $body);
             } // <!--endif
         } // <!--endforeach
+
+        // delete old image
+        $files = Storage::disk('real')->allFiles('/uploads/body/' . $postId);
+        if (count($files) > 0) {
+            foreach ($files as $file) {
+                if (strpos($body, $file) === false) {
+                    Storage::disk('real')->delete($file);
+                }
+            }
+        }
+
         return $body;
     }
 
@@ -89,10 +91,8 @@ class PostsController extends Controller
 
         ]);
 
-        $featured = $request->featured;
-        $name = $post->id . '.jpg';
-        $featured->move('uploads/posts', $name);
-        $post->featured = 'uploads/posts/' . $name;
+        $path = '/uploads/posts/';
+        $post->featured = $path . $this->uploadImage($request->featured, $path);
         $post->body = $this->checkImageInContent($request->body, $post->id);
         $post->save();
         $post->tags()->attach($request->tags);
@@ -103,23 +103,12 @@ class PostsController extends Controller
         return redirect()->back();
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param int $id
-     * @return Response
-     */
+
     public function show($id)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param int $id
-     * @return Response
-     */
     public function edit($id)
     {
         $this->deleteTemp();
@@ -130,13 +119,7 @@ class PostsController extends Controller
             ->with('tags', Tag::all());
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param Request $request
-     * @param int $id
-     * @return Response
-     */
+
     public function update(Request $request, $id)
     {
 
@@ -153,12 +136,9 @@ class PostsController extends Controller
         $posts = Post::find($id);
 
         if ($request->hasfile('featured')) {
-            $featured = $request->featured;
-            // $featuerd_new = time().$featured->getClientoriginalName();
-            $featuerd_new = $posts->id . '.jpg';
-            $featured->move('uploads/posts', $featuerd_new);
-            $posts->featured = 'uploads/posts/' . $featuerd_new;
-
+            $path = '/uploads/posts/';
+            $this->deleteImageFeatureOfPost($posts->featured);
+            $posts->featured = $path . $this->uploadImage($request->featured, $path);
         }
 
 
@@ -281,5 +261,14 @@ class PostsController extends Controller
     {
         $files = Storage::disk('real')->allFiles('/uploads/temp');
         Storage::disk('real')->delete($files);
+    }
+
+    public function deleteImageFeatureOfPost($path)
+    {
+        $split = explode('/', $path);
+        $name = $split[count($split) - 1];
+        if (Storage::disk('real')->exists('uploads/posts/'. $name)) {
+            Storage::disk('real')->delete('uploads/posts/'. $name);
+        }
     }
 }
