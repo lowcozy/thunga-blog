@@ -23,6 +23,7 @@ return [
     |
     */
     'skip' => [
+        'admin/*',
         '_debugbar/*',
         '*.xml',
         '*.less',

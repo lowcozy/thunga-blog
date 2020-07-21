@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPwBuF7mjfJbElp09SFdMYlUYfAFZdhrXATA&usqp=CAU">
+    <link rel="icon" href="{{ asset('app/img/features2.png') }}">
     <title>{{ $title }} {{ isset($site) ? "- {$site}" : '' }}</title>
 
 

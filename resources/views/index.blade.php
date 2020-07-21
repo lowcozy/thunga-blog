@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Du Lịch, Ăn Uống Reviews - {{ $title }}</title>
-    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPwBuF7mjfJbElp09SFdMYlUYfAFZdhrXATA&usqp=CAU">
+    <link rel="icon" href="{{ asset('app/img/features2.png') }}">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/fonts.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/crumina-fonts.css') }}">

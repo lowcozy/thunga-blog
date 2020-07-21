@@ -20,21 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2a4d17f-4f26-45b2-8761-7ae5f2eabd25" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/lazysizes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Blog-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Blog-laravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/disqus.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/disqus.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/laravel-page-speed.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/laravel-page-speed.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/results.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/results.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/single.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tag.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tag.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +194,7 @@
       <workItem from="1595032888290" duration="6932000" />
       <workItem from="1595055213573" duration="28000" />
       <workItem from="1595299764453" duration="24405000" />
+      <workItem from="1595351181364" duration="989000" />
     </task>
     <servers />
   </component>
@@ -267,10 +257,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="432" key="ComposerInitDialogKey/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594277904945" />
-    <state x="771" y="222" key="RollbackChangesDialog" timestamp="1595302487805">
+    <state x="771" y="222" key="RollbackChangesDialog" timestamp="1595352007646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="771" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595302487805" />
+    <state x="771" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595352007646" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1595032873334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
