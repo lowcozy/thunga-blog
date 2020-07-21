@@ -9,7 +9,7 @@ var data = {
         {
             data: [48, 23, 17, 22],
             backgroundColor: [
-                "#4cc2c0",
+                "#59c1ff",
                 "#3cb878",
                 "#fcb03b",
                 "#f15b26"

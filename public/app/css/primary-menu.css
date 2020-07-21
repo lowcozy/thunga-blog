@@ -6,7 +6,7 @@ License: http://codecanyon.net/licenses
 
 /*
 	CONTENTS:
-	
+
 	 1 - MENU CONTAINER
 		- Scrollable menu
 	 2 - BRAND
@@ -50,7 +50,7 @@ License: http://codecanyon.net/licenses
 .primary-menu,
 .primary-menu *{
 	box-sizing:border-box;
-	-moz-box-sizing:border-box; 
+	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 }
 .primary-menu{
@@ -126,7 +126,7 @@ License: http://codecanyon.net/licenses
 	display: block;
 	width: 80%;
 	height: 2px;
-	background-color: #4cc2c0;
+	background-color: #59c1ff;
 	position: absolute;
 	right: 0;
 	bottom: -10px;
@@ -140,7 +140,7 @@ License: http://codecanyon.net/licenses
 	position: absolute;
 	width: 15%;
 	height: 2px;
-	background-color: #4cc2c0;
+	background-color: #59c1ff;
 	left: 0;
 	bottom: -10px;
 	opacity: 0;
@@ -157,7 +157,7 @@ License: http://codecanyon.net/licenses
 .primary-menu-menu > li.active > a,
 .primary-menu-menu > li:hover > a,
 .primary-menu-menu > li:hover > i {
-	color: #4cc2c0;
+	color: #59c1ff;
 }
 
 .primary-menu-menu > li > i {
@@ -222,7 +222,7 @@ License: http://codecanyon.net/licenses
 .primary-menu-menu ul.dropdown a:hover > i,
 .primary-menu-menu > li.has-megamenu .megamenu ul > li a:hover i {
 	opacity: 1;
-	color: #4cc2c0;
+	color: #59c1ff;
 }
 
 .primary-menu-menu ul.dropdown li ul.dropdown{
@@ -270,7 +270,7 @@ License: http://codecanyon.net/licenses
 	position: absolute;
 	left: 0;
 	top: 0;
-	background-color: #4cc2c0;
+	background-color: #59c1ff;
 	opacity: 0;
 	transition: all .3s ease;
 }
@@ -291,7 +291,7 @@ License: http://codecanyon.net/licenses
 }
 
 .primary-menu-menu > li.has-megamenu .megamenu ul > li:hover a {
-	color: #4cc2c0;
+	color: #59c1ff;
 }
 
 .primary-menu-menu ul.dropdown li.menu-item-has-children > a > i {
@@ -305,7 +305,7 @@ License: http://codecanyon.net/licenses
 
 /* Hover state (dropdown items) */
 .primary-menu-menu ul.dropdown li:hover > a{
-	color: #4cc2c0;
+	color: #59c1ff;
 	transition: all .3s ease;
 }
 
@@ -334,11 +334,11 @@ License: http://codecanyon.net/licenses
 }
 
 .primary-menu-menu li ul.dropdown li:hover > a .indicator{
-	color: #4cc2c0;
+	color: #59c1ff;
 }
 
 .primary-menu-menu > li:hover > a > .indicator {
-	color: #4cc2c0;;
+	color: #59c1ff;;
 }
 
 /* 6 - MEGAMENU
@@ -642,43 +642,43 @@ License: http://codecanyon.net/licenses
 .primary-menu.blue .primary-menu-menu > li.active > a,
 .primary-menu.blue .primary-menu-menu > li:hover > a,
 .primary-menu.blue .primary-menu-menu ul.dropdown li:hover > a{
-	color: #4A89DC; 
+	color: #4A89DC;
 }
 /* green */
 .primary-menu.green .primary-menu-menu > li.active > a,
 .primary-menu.green .primary-menu-menu > li:hover > a,
 .primary-menu.green .primary-menu-menu ul.dropdown li:hover > a{
-	color: #37BC9B; 
+	color: #37BC9B;
 }
 /* red */
 .primary-menu.red .primary-menu-menu > li.active > a,
 .primary-menu.red .primary-menu-menu > li:hover > a,
 .primary-menu.red .primary-menu-menu ul.dropdown li:hover > a{
-	color: #E9573F; 
+	color: #E9573F;
 }
 /* orange */
 .primary-menu.orange .primary-menu-menu > li.active > a,
 .primary-menu.orange .primary-menu-menu > li:hover > a,
 .primary-menu.orange .primary-menu-menu ul.dropdown li:hover > a{
-	color: #ff670f; 
+	color: #ff670f;
 }
 /* yellow */
 .primary-menu.yellow .primary-menu-menu > li.active > a,
 .primary-menu.yellow .primary-menu-menu > li:hover > a,
 .primary-menu.yellow .primary-menu-menu ul.dropdown li:hover > a{
-	color: #F6BB42; 
+	color: #F6BB42;
 }
 /* purple */
 .primary-menu.purple .primary-menu-menu > li.active > a,
 .primary-menu.purple .primary-menu-menu > li:hover > a,
 .primary-menu.purple .primary-menu-menu ul.dropdown li:hover > a{
-	color: #967ADC; 
+	color: #967ADC;
 }
 /* pink */
 .primary-menu.pink .primary-menu-menu > li.active > a,
 .primary-menu.pink .primary-menu-menu > li:hover > a,
 .primary-menu.pink .primary-menu-menu ul.dropdown li:hover > a{
-	color: #D770AD; 
+	color: #D770AD;
 }
 
 /* 14 - MOBILE MODE (RESPONSIVE MODE)
@@ -697,17 +697,17 @@ License: http://codecanyon.net/licenses
 	.primary-menu-responsive.primary-menu .google-text{
 	margin-bottom: 120px;
 	}
-	
+
 	/* Brand */
 	.primary-menu-responsive .primary-menu-brand{
 		margin: 8px 30px 10px 20px;
 		font-size: 20px;
 		line-height: 1.55;
 	}
-	
+
 	/* Show/hide button */
 
-	
+
 	/* Menu */
 	.primary-menu-responsive .primary-menu-menu{
 		width: 100%;
@@ -726,7 +726,7 @@ License: http://codecanyon.net/licenses
 	.primary-menu-responsive .primary-menu-menu.scrollable > .scrollable-fix{
 		display: block;
 	}
-	
+
 	/* Menu items */
 	.primary-menu-responsive .primary-menu-menu > li{
 		width: 100%;
@@ -742,7 +742,7 @@ License: http://codecanyon.net/licenses
 	.primary-menu-responsive .primary-menu-menu > li:first-child > a{
 		border-top: solid 1px #f0f0f0;
 	}
-	
+
 	/* Dropdown */
 	.primary-menu-responsive .primary-menu-menu ul.dropdown,
 	.primary-menu-responsive .primary-menu-menu ul.dropdown li ul.dropdown{
@@ -761,7 +761,7 @@ License: http://codecanyon.net/licenses
 	.primary-menu-responsive .primary-menu-menu > li {
 		padding-bottom: 0;
 	}
-	
+
 	/* Dropdown items */
 	.primary-menu-responsive .primary-menu-menu ul.dropdown li{
 		position: relative;
@@ -772,7 +772,7 @@ License: http://codecanyon.net/licenses
 	}
 	.primary-menu-responsive .primary-menu-menu.primary-menu-indented > li > ul.dropdown > li > ul.dropdown > li > ul.dropdown > li > a{ padding-left: 80px !important; }
 	.primary-menu-responsive .primary-menu-menu.primary-menu-indented > li > ul.dropdown > li > ul.dropdown > li > ul.dropdown > li:hover > a{ padding-left: 90px !important; }
-	
+
 	/* Dropdown/megamenu indicators */
 	.primary-menu-responsive .primary-menu-menu li .indicator{
 		width: 60px;
@@ -794,7 +794,7 @@ License: http://codecanyon.net/licenses
 		transform: rotate(90deg);
 		border-left: none;
 	}
-	
+
 	/* Megamenu */
 	.primary-menu-responsive .primary-menu-menu > li > .megamenu{
 		width: 100% !important;
@@ -817,7 +817,7 @@ License: http://codecanyon.net/licenses
 	.primary-menu-responsive .primary-menu-menu > li > .megamenu .megamenu-row{
 		margin-top: 0;
 	}
-	
+
 	/* Search field */
 	.primary-menu-responsive .primary-menu-menu > li.search form{
 		width: 100%;
@@ -827,7 +827,7 @@ License: http://codecanyon.net/licenses
 	.primary-menu-responsive .primary-menu-menu > li.search form input[type="text"]{
 		width: 100%;
 	}
-	
+
 	/* Tabs */
 	.primary-menu-responsive .primary-menu-tabs-nav{
 		width: 100%;
