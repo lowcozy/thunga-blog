@@ -15,7 +15,7 @@
         "laravel/framework": "^5.8.0",
         "laravel/tinker": "~1.0",
         "predis/predis": "^1.1",
-        "renatomarinho/laravel-page-speed": "^1.8",
+        "renatomarinho/laravel-page-speed": "2.x-dev",
         "spatie/laravel-newsletter": "^4.1"
     },
     "require-dev": {
