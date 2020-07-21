@@ -21,7 +21,7 @@
                     <article class="hentry post post-standard-details">
 
                         <div class="post-thumb">
-                            <img src="{{ $post->featured }}" alt="{{ $post->title }}">
+                            <img data-src="{{ $post->featured }}" class="lazyload blur-up" alt="seo">
                         </div>
 
                         <div class="post__content">
@@ -150,7 +150,7 @@
                     <div class="comments">
 
                         <div class="heading text-center">
-                            <h4 class="h1 heading-title">Bình luận</h4>
+                            <h4 style="font-size: 30px;" class="h1 heading-title">Bình luận</h4>
                             <div class="heading-line">
                                 <span class="short-line"></span>
                                 <span class="long-line"></span>
@@ -171,7 +171,7 @@
 
                 <!-- Sidebar-->
 
-                <div class="col-lg-12">
+                <div class="col-lg-12 mt60">
                     <aside aria-label="sidebar" class="sidebar sidebar-right">
                         <div class="widget w-tags">
                             <div class="heading text-center">

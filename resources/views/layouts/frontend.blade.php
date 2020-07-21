@@ -3,6 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPwBuF7mjfJbElp09SFdMYlUYfAFZdhrXATA&usqp=CAU">
     <title>{{ $title }} {{ isset($site) ? "- {$site}" : '' }}</title>
 
 
@@ -151,6 +152,7 @@
 <script src="{{ asset('app/js/velocity.min.js') }}"></script>
 <script src="{{ asset('app/js/ScrollMagic.min.js') }}"></script>
 <script src="{{ asset('app/js/animation.velocity.min.js') }}"></script>
+<script src="{{ asset('js/lazysizes.min.js') }}" async=""></script>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 {{--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a032563054ef400"></script> --}}

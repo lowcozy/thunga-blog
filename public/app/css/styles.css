@@ -7541,7 +7541,10 @@ form.w-search {
     color: #fff;
     font-size: 16px;
     margin-bottom: 30px; }
-
+.pagination-arrow .btn-next-wrap:hover {
+  cursor: pointer;
+}
+.pagination-arrow .btn-next-wrap:hover
 .w-latest-news .latest-news-wrap {
   margin-bottom: 30px; }
   .w-latest-news .latest-news-wrap .latest-news-item {
@@ -7655,3 +7658,24 @@ form.w-search {
 
 .tooltip-arrow,
 .link-post + .tooltip > .tooltip-inner {color: #FFFFFF;}
+
+.blur-up {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  transition: filter 400ms, -webkit-filter 400ms;
+}
+
+.blur-up.lazyloaded {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+.lazyload {
+  opacity: 0;
+}
+
+.lazyloading {
+  opacity: 1;
+  transition: opacity 300ms;
+  /*background: #f7f7f7 url(loader.gif) no-repeat center;*/
+}

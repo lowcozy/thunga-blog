@@ -20,10 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2a4d17f-4f26-45b2-8761-7ae5f2eabd25" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/js/lazysizes.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Blog-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Blog-laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/css/primary-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app/css/primary-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/js/donut-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/app/js/donut-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/disqus.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/disqus.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/results.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/results.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tag.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tag.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +146,7 @@
       <path value="$PROJECT_DIR$/vendor/renatomarinho/laravel-page-speed" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="ProjectId" id="1eRE1JhvjA2bVlZAQ4HSNEcYtuq" />
@@ -147,20 +159,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads/temp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\laragon\www\thunga\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\laragon\www\thunga\public\js" />
       <recent name="C:\laragon\www\thungavlog\public\uploads\temp" />
       <recent name="C:\laragon\www\thungavlog\public\uploads\posts" />
       <recent name="C:\laragon\www\thungavlog\public\uploads\body" />
       <recent name="E:\laragon\www\thunga\public\ckeditor5-build-classic" />
-      <recent name="E:\laragon\www\thunga\public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\laragon\www\thunga\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -192,7 +204,7 @@
       <workItem from="1595032083410" duration="789000" />
       <workItem from="1595032888290" duration="6932000" />
       <workItem from="1595055213573" duration="28000" />
-      <workItem from="1595299764453" duration="15582000" />
+      <workItem from="1595299764453" duration="24405000" />
     </task>
     <servers />
   </component>
@@ -246,9 +258,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="845" y="383" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594880975194" />
-    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595038097165">
+    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595326020670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595326020670" />
     <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595038097165" />
     <state x="736" y="432" key="ComposerInitDialogKey" timestamp="1594277904945">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -279,10 +292,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="1958" y="0" width="1369" height="999" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594960697634" />
-    <state x="667" y="147" width="962" height="640" key="find.popup" timestamp="1595318219387">
+    <state x="667" y="147" width="962" height="640" key="find.popup" timestamp="1595326880688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="147" width="962" height="640" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595318219387" />
+    <state x="667" y="147" width="962" height="640" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595326880688" />
     <state x="667" y="147" width="962" height="640" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595035224010" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1595033978105">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -293,16 +306,5 @@
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595306976014" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595038089145" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/index.blade.php</url>
-          <line>155</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

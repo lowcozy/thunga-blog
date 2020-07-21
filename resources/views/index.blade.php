@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Du Lịch, Ăn Uống Reviews - {{ $title }}</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPwBuF7mjfJbElp09SFdMYlUYfAFZdhrXATA&usqp=CAU">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/fonts.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('app/css/crumina-fonts.css') }}">
@@ -55,7 +56,7 @@
                         <article class="hentry post post-standard has-post-thumbnail sticky">
 
                             <div class="post-thumb">
-                                <img src="{{ $post->featured }}" alt="seo">
+                                <img data-src="{{ $post->featured }}" class="lazyload blur-up" alt="seo">
                                 <div class="overlay"></div>
                                 <a href="{{ $post->featured }}" class="link-image js-zoom-image">
                                     <i class="seoicon-zoom"></i>
@@ -157,6 +158,7 @@
 <script src="{{ asset('app/js/velocity.min.js') }}"></script>
 <script src="{{ asset('app/js/ScrollMagic.min.js') }}"></script>
 <script src="{{ asset('app/js/animation.velocity.min.js') }}"></script>
+<script src="{{ asset('js/lazysizes.min.js') }}" async=""></script>
 
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>

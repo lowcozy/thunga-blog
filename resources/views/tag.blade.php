@@ -20,7 +20,7 @@
                                 <div class="case-item">
                                     <div class="case-item__thumb mouseover poster-3d lightbox shadow animation-disabled"
                                          data-offset="5">
-                                        <img src="{{ $post->featured }}" alt="our case">
+                                        <img data-src="{{ $post->featured }}" class="lazyload blur-up" alt="seo">
                                     </div>
                                     <a href="{{ route('post.single', ['slug' => $post->slug ]) }}"><h6
                                                 class="case-item__title">{{ $post->title }}</h6></a>
