@@ -106,9 +106,6 @@
         @endforelse
     </div>
 </div>
-{{--@include('includes.form')--}}
-
-
 
 <!-- Footer -->
 
@@ -151,23 +148,12 @@
 
 </svg>
 
-<!-- Overlay Search -->
-
 @include('includes.search')
-
-<!-- End Overlay Search -->
-
-<!-- JS Script -->
-
 <script src="{{ asset('app/js/jquery-2.1.4.min.js') }}"></script>
 <script src="{{ asset('app/js/crum-mega-menu.js') }}"></script>
 <script src="{{ asset('app/js/swiper.jquery.min.js') }}"></script>
 <script src="{{ asset('app/js/theme-plugins.js') }}"></script>
 <script src="{{ asset('app/js/main.js') }}"></script>
-
-
-{{--<script src="{{ asset('js/toastr.min.js') }}"></script>--}}
-
 <script src="{{ asset('app/js/velocity.min.js') }}"></script>
 <script src="{{ asset('app/js/ScrollMagic.min.js') }}"></script>
 <script src="{{ asset('app/js/animation.velocity.min.js') }}"></script>
@@ -210,14 +196,5 @@
         });
     });
 </script>
-
-<!-- ...end JS Script -->
-{{-- <script>--}}
-{{--          @if(Session::has('subscribed'))--}}
-{{--                toastr.success("{{ Session::get('subscribed') }}")--}}
-{{--          @endif--}}
-{{--          --}}
-{{--    </script>--}}
-
 </body>
 </html>
