@@ -25,3 +25,4 @@ public/uploads/temp/*
 .rocketeer/
 storage/debugbar/.gitignore
 .idea/*
+composer.lock
