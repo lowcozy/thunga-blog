@@ -9,6 +9,7 @@ use Auth;
 use DOMDocument;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\ImageManagerStatic as Image;
 use Session;
@@ -182,6 +183,8 @@ class PostsController extends Controller
     public function kill($id)
     {
         $posts = Post::withTrashed()->where('id', $id)->first();
+        $this->deleteImageFeatureOfPost($posts->featured);
+        File::deleteDirectory(public_path("uploads/body/{$posts->id}"));
         $posts->forceDelete();
         Session::flash('success', 'You succesfully deleted a Post Permanently.');
         return redirect()->back();
